@@ -1,0 +1,10 @@
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+    rgba(83, 115, 128, 0.7),
+    rgba(83, 115, 128, 0.7)
+   ), url(../images/IMAGEN\ HERO.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  }

@@ -5,20 +5,14 @@ section.about-us .col img{
 }
 
 section.benefits {
-  background-image: url('../images/BACKGROUND BENEFITS.jpg');
+  /* background-image: url('../images/BACKGROUND BENEFITS.jpg'); */
+  background-image: linear-gradient(
+    rgba(83, 115, 128, 0.7),
+    rgba(83, 115, 128, 0.7)
+    ), url(../images/BACKGROUND\ BENEFITS.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* section.benefits::before {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(71, 50, 48, 0.8);
-} */
 
 .icon-container {
   width: min-content;

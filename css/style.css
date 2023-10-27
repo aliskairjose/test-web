@@ -1,7 +1,8 @@
-@import 'colors.css';
-@import url('careers.css');
-@import url('about.css');
-@import url('team.css');
+@import "colors.css";
+@import url("careers.css");
+@import url("about.css");
+@import url("team.css");
+@import url('hero.css');
 
 #root {
   width: 100%;
@@ -30,11 +31,11 @@ section {
   background-color: var(--ligth-gray);
 }
 
-.custom-border-yellow{
+.custom-border-yellow {
   border: 2px solid var(--yellow) !important;
 }
 
-.custom-border-white{
+.custom-border-white {
   border: 3px solid var(--white);
 }
 
@@ -42,11 +43,11 @@ section {
   color: var(--blue);
 }
 
-.text-yellow{
+.text-yellow {
   color: var(--yellow);
 }
 
-.text-white{
+.text-white {
   color: var(--white);
 }
 
@@ -64,7 +65,8 @@ li {
   margin: 12px 0;
 }
 
-.divider{
+.divider {
+  margin-top: 10px;
   width: 350px;
   height: 1px;
   border: 2px solid var(--yellow);
@@ -87,7 +89,7 @@ li {
 
 .btn.btn-yellow {
   background-color: var(--yellow);
-  color: var(--white)
+  color: var(--white);
 }
 .btn.btn-yellow-outline {
   background-color: var(--white);
@@ -95,3 +97,10 @@ li {
   border: 1px solid var(--yellow);
 }
 
+.circle {
+  background-color: var(--yellow);
+  height: 10px;
+  width: 10px;
+  border-radius: 100px;
+  margin: 10px;
+}
